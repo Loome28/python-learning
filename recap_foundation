@@ -1,0 +1,5 @@
+name=input("Please enter your name: ")
+age=int(input("Please enter your age: "))
+def greet(name,age):
+    print(f"Hello, {name}! You are {age} years old.")
+greet(name,age)
